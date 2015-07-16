@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSubte", "WebApiSubte\WebApiSubte.csproj", "{0660D613-40C0-4DE7-A632-DFCA05B2B050}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{CE8296F8-C6BA-4A72-A9C6-C3B84002D312}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{04517B69-B43F-42B1-B27A-F9524D406707}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\WebApiSubte-WAWS-dev.json = PublishScripts\Configurations\WebApiSubte-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0660D613-40C0-4DE7-A632-DFCA05B2B050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0660D613-40C0-4DE7-A632-DFCA05B2B050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0660D613-40C0-4DE7-A632-DFCA05B2B050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0660D613-40C0-4DE7-A632-DFCA05B2B050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04517B69-B43F-42B1-B27A-F9524D406707} = {CE8296F8-C6BA-4A72-A9C6-C3B84002D312}
+	EndGlobalSection
+EndGlobal
